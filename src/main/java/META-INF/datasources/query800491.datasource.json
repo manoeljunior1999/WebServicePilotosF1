@@ -1,0 +1,115 @@
+{
+  "customId": "query800491",
+  "queryName": "CadastrodePilotos",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Pilotos",
+  "entityFullName": "app.entity.Pilotos",
+  "query": {
+    "isValid": true,
+    "isEmpty": false,
+    "operationType": "object",
+    "type": "select",
+    "rulesEntity": [
+      {
+        "entity": "Pilotos",
+        "namespace": "app.entity.Pilotos",
+        "alias": "p"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "p.nome",
+        "type": "string"
+      },
+      {
+        "func": "get",
+        "field": "p",
+        "type": "string"
+      },
+      {
+        "func": "get",
+        "field": "p.id",
+        "type": "string"
+      },
+      {
+        "func": "get",
+        "field": "p.equipe",
+        "type": "string"
+      },
+      {
+        "func": "get",
+        "field": "p.nacionalidade",
+        "type": "string"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "rules": [],
+      "not": false,
+      "valid": true
+    },
+    "isRawSql": false,
+    "multiTenant": false,
+    "paginatorAutomatic": false,
+    "pagination": false
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "nome": null,
+    "nacionalidade": null,
+    "equipe": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "nome": null,
+    "nacionalidade": null,
+    "equipe": null
+  },
+  "security": {
+    "id": null,
+    "nome": null,
+    "nacionalidade": null,
+    "equipe": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query800491/",
+  "audit": false
+}

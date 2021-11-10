@@ -1,0 +1,111 @@
+{
+  "customId": "query935248",
+  "queryName": "piltos_teste",
+  "sourceType": "rest",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": null,
+  "entityFullName": null,
+  "endpoint": {
+    "url": "https://app-28-146-49250.ide.cronapp.io/api/cronapi/rest/BlocoTeste:Executar",
+    "GET": {
+      "parameters": {}
+    },
+    "POST": {},
+    "PUT": {},
+    "DELETE": {},
+    "FILTER": {
+      "parameters": {}
+    },
+    "COUNT": {
+      "parameters": {}
+    },
+    "metadata": null
+  },
+  "query": "",
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "equipe": null,
+    "id": null,
+    "nacionalidade": null,
+    "nome": null
+  },
+  "defaultValuesProperties": {
+    "equipe": {
+      "key": false,
+      "nullable": true,
+      "type": "String"
+    },
+    "id": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "nacionalidade": {
+      "key": false,
+      "nullable": true,
+      "type": "String"
+    },
+    "nome": {
+      "key": false,
+      "nullable": true,
+      "type": "String"
+    }
+  },
+  "security": {
+    "equipe": null,
+    "id": null,
+    "nacionalidade": null,
+    "nome": null
+  },
+  "calcFields": {
+    "Classificacao": "this.nome",
+    "Pontos": "this.nacionalidade"
+  },
+  "calcFieldsSecurity": {
+    "Classificacao": null,
+    "Pontos": null
+  },
+  "calcFieldsProperties": {
+    "Classificacao": {
+      "type": "String"
+    },
+    "Pontos": {
+      "type": "String"
+    }
+  },
+  "headers": {
+    "Accept": "\"application/json\"",
+    "Content-Type": "\"application/json\""
+  },
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query935248/",
+  "audit": false
+}
